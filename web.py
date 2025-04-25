@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Cargar archivo con la columna "Ubicacion" ya generada
 fecha = datetime.now().strftime("%Y-%m-%d")
-df = pd.read_excel(f"airbnb_scrape_{fecha}.xlsx")
+df = pd.read_excel(f"airbnb_scrape_2025-04-24.xlsx")
 
 # Título de la app
 st.title("Análisis de Alojamientos en Airbnb")
